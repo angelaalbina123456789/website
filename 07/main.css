@@ -79,3 +79,24 @@ h2 {
   margin-top: 0;
   padding: 0;
 }
+p {
+  color: rgb(75, 88, 10);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+.sidebar p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+p:last-of-type {
+  color: black;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 11px;
+  border-top: 1px dotted rgb(50,50,50); 
+}
+h1+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3em;
+  color: black;
+}
